@@ -1,0 +1,12 @@
+@import '../../values/colors.css';
+
+header {
+  padding: 16px;
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+}
+
+header h1 {
+  margin-top: 0px;
+  margin-bottom: 0.6rem;
+}
