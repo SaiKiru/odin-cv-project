@@ -5,3 +5,8 @@
   min-height: max(920px, 100vh);
   text-align: center;
 }
+
+#cv-document-container {
+  padding: 32px 16px;
+  background-color: hsl(233, 15%, 92%);
+}
