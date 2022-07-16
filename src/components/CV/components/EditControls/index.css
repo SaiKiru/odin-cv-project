@@ -1,0 +1,44 @@
+.edit-controls {
+  display: flex;
+  gap: 4px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  visibility: hidden;
+}
+
+.editable:hover .edit-controls {
+  visibility: visible;
+}
+
+.edit-controls.edit-mode {
+  visibility: visible;
+}
+
+.edit-control {
+  padding: 4px;
+  aspect-ratio: 1 / 1;
+  width: 24px;
+  color: #ffffff;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.edit-control:hover {
+  cursor: pointer;
+}
+
+.edit-control.edit {
+  background-color: rgb(25, 114, 216);
+  border-color: rgb(23, 88, 172);
+}
+
+.edit-control.save {
+  background-color: rgb(72, 177, 51);
+  border-color: rgb(48, 145, 96);
+}
+
+.edit-control.cancel {
+  background-color: rgb(196, 72, 63);
+  border-color: rgb(175, 57, 57);
+}
